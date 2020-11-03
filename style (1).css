@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "crafting-items.css";
+
+#banner {
+	background-color: #81b214;
+}
+
+#border-colour{
+	border: 5px dotted;
+	border-color: #0d7377;
+	border-width: 15px;
+}
+
+.form-head {
+	font-family: 'Pacifico', cursive;
+   	font-weight: 900;
+}
+#emailHelp {
+		font-family: 'Pacifico', cursive;
+		font-weight: 900;
+		color: #f6f4e6;
+}
+
+.row {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+#form-row {
+	padding: 0.5rem;
+	padding-top: 2rem;
+}
+
+.form-col {
+	position: absolute;
+	top: 18%;
+	right: 0%;
+	background-color: white;
+}
+
+@media (max-width: 576px) {
+	.form-col{
+		position: static;
+	}
+}
+
+#footer-row {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+}
+
+#cards-row {
+	padding-left: 1rem
+	padding-right: 1rem
+}
+
+/*.card-title {
+	text-align: center;
+}*/
+
+.card {
+	margin-bottom: 0.5rem;
+}
+
+.card-body>a {
+	text-decoration: none;
+}
+
+.pic {
+	width: 100%;
+	height: auto;
+}
+
+#btn-container {
+	flex-direction: column;
+	position: absolute;
+	top: 25.6%;
+	right: 4.4%;
+}
+
+.mob-btn {
+	margin-top: 10px;
+}
+
+#btn-col {
+	position: static;
+}
+
+@media(max-width: 576px ) {
+	#btn-container {
+		position: relative;
+		width: 100%
+		justify-content: space-evenly;
+		flex-direction: row;
+		bottom: 80%;
+		top: unset;
+	}
+}
+
+
+
+
+
+
+
